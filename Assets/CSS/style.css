@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::after ,
+::before{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 2; 
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* Global Layout*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* header*/
+#header{
+    background-color: rgb(49, 49, 49);
+    color: #ffff;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: #1eca2c 1px solid;
+}
+
+#header a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+#header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+#header li:hover {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+#header #branding{
+    float: left;
+}
+#header #branding h1{
+    margin: 0;
+}
+
+#header #branding h1:hover{
+    margin: 0;
+    font-size: 30px;
+}
+#header nav{
+    float: right;
+    margin-top: 10px;
+
+}
+
+#header .highlight, #header .current a{
+    color: #1267d6;
+    font-weight: bold;
+
+}
+#header a :hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* showcase */
+#showcase{
+    min-height: 400px;
+    background-image: url('../IMG/Orang\ Ngetik.jpeg');
+    background-attachment: fixed;
+    text-align: center;
+    color: #ffff;
+
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 56px;
+    margin-bottom: 10px;
+
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newsletter{
+    padding: 15px;
+    color: #ffff;
+    background-color: rgb(49, 49, 49);
+
+
+}
+
+/* #newsletter h1{
+    float: left;
+
+}
+#newsletter h1::after, ::before{
+    clear: both;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+} */
+.alignment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.alignment h1{
+    font-size: 15px;
+}
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  
+}
+
+.button_1{
+    height: 35px;
+    background: #3c8bf3;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffff;
+    cursor: pointer;
+
+}
+/* bagian boxes*/
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffff;
+    background-color: #3c8bf3;
+    text-align: center;
+}
+
+/*bagian page about*/
+#sidebar{
+float: right;
+width: 30%;
+margin-top: 10px;
+}
+
+#main-col{
+    float: left;
+    width: 65%;
+}
+
+.dark{
+    padding: 35px;
+    background-color: #35424a;
+    color: #ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
